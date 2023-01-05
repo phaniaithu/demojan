@@ -46,4 +46,4 @@ steps:
     containerRegistry: 'docker serv conn'
     repository: 'phani28 / demo1'
     command: 'buildAndPush'
-    Dockerfile: 'springcreditcard/Dockerfile'
+    Dockerfile: 'springcreditcard/dockerfile'
