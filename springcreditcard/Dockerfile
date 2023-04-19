@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM openjdk:11
 EXPOSE 8080
 ADD target/Ccbp.jar Ccbp.jar 
 ENTRYPOINT ["java","-jar","Ccbp.jar"]
